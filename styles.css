@@ -1,0 +1,46 @@
+head, body {
+
+  }
+header {
+  text-align: center;
+  background: img src="shaw.jpg" alt="Shaw"
+  background-size: cover;
+}
+  h1 {
+    font-size: 50px;
+    padding: 20px 0px 0px 0px;
+  }
+
+  ul {
+    background: black;
+    padding: 20px;
+  }
+  img {
+      margin: 20px 0px 50px 0px;
+      border: 5px solid black;
+      border-radius: 20px;
+    }
+    li {
+      font-color: black;
+      padding: 10px 25px 10px 25px;
+      display: inline;
+    }
+    h2 {
+      font-size: 25px;
+    }
+    p {
+      font-size: 18px;
+    }
+    article {
+      max-width:800px;
+      padding: 10px;
+      margin: 0 auto;
+    }
+    form {
+      max-width:800px;
+      padding: 10px;
+      margin: 0 auto;
+
+    }
+
+}
