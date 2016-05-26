@@ -2,10 +2,10 @@ head, body {
   background-color: #A2A7A6
   }
 header {
-  text-align: center;
-  background: img src="shaw.jpg" alt="Shaw"
+  background: url("shaw.jpg");
   background-size: cover;
-}
+  text-align: center;
+  }
   h1 {
     font-size: 50px;
     padding: 20px 0px 0px 0px;
@@ -21,8 +21,7 @@ header {
       border-radius: 20px;
     }
     li {
-      font-color: black;
-      padding: 10px 25px 10px 25px;
+       padding: 10px 25px 10px 25px;
       display: inline;
     }
     h2 {
@@ -40,7 +39,4 @@ header {
       max-width:800px;
       padding: 10px;
       margin: 0 auto;
-
     }
-
-}
