@@ -11,8 +11,8 @@
   color:inherit;
 }
 head, body {
-  background-color: #A2A7A6
-
+  background-color: #A2A7A6;
+  font-family: Arial,sans-serif;
   }
 
 header {
@@ -26,7 +26,10 @@ header {
     padding: 6px 0px 6px 0px;
     background-color: #666667;
   }
-
+  h3 {
+    font-size: 24px;
+    background-color: #666667;
+  }
   ul {
     background: #666667;
     padding: 20px;
@@ -37,7 +40,7 @@ header {
     font-size: 20px;
   }
   img {
-    margin: 20px 0px 50px 0px;
+    margin: 50px 0px 50px 0px;
     border: 5px solid black;
     border-radius: 20px;
     }
