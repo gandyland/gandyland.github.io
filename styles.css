@@ -21,9 +21,11 @@ header {
   text-align: center;
   font-weight: bold;
   }
+  /* Your indentation starts going off here. */
   h1 {
     font-size: 50px;
     padding: 6px 0px 6px 0px;
+    /* Can shorten to padding: 6px 0; */
     background-color: #666667;
   }
   h3 {
@@ -32,11 +34,13 @@ header {
   }
   ul {
     background: #666667;
+    /* Use either `background-color` or `background` across your code -- pick one and stick with it, even if they both do the same thing. */
     padding: 20px;
   }
   a {
     padding: 10px 25px 10px 25px;
     display: inline;
+    /* `a` is inline by default, so you probably don't need this. */
     font-size: 20px;
   }
   img {
